@@ -1,15 +1,12 @@
-const money  = 700.
-;
+var num1;
+num1 = 20;
+var num2 = 19;
+var result;
 
-if(money=>900){
-    console.log("Oper tikit");
-
-}
-else{
-    if(money<100)
-        console.log("tui gorib ami na ")
-    else{
-        if(money>0)
-            console.log("fokir")
-    }
+if (num1 > num2) {
+    result = num1;
+    console.log("result will be num1");
+} else {
+    result = num1 + num2;
+    console.log("total =", result);
 }
