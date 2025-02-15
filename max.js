@@ -1,8 +1,13 @@
-const mobile = {
-    band:'samsumg',
-    price:2300,
-    color:'12px',
+const friends =['orgho','borat', 'abid'];
+for(const friend of friends){
+   // console.log(friend)
 }
-for (const prop in mobile){
-    console.log(prop)
+for(let i = 0; i <=friends.length ;i++){
+    console.log(i);
+    console.log(friends[i]);
 }
+
+const number = [2,4,5,6,7,8,9]
+ console.log(number);
+number.reverse();
+console.log(number);
