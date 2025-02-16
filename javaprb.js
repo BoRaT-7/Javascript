@@ -38,3 +38,20 @@ function nobudlicat (array){
 const okyarray = nobudlicat(goodboy);
 console.log(okyarray);
 console.log(nobudlicat)
+
+
+//math 
+
+const math = {
+     min : function min(num1,num2){
+        return num2;
+     }
+     
+
+}
+console.log(math.max);
+
+const min = math.min (45,12,34,78,92,11,3);
+console.log(min);
+const max = math.max('44','41','23','45');
+console.log(max);
