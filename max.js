@@ -1,13 +1,8 @@
-const friends =['orgho','borat', 'abid'];
-for(const friend of friends){
-   // console.log(friend)
-}
-for(let i = 0; i <=friends.length ;i++){
-    console.log(i);
-    console.log(friends[i]);
+const heights = [55, 78, 12, 40, 99, 100];
+
+function getMax(fullnumbers) {
+    return Math.max(...fullnumbers);
 }
 
-const number = [2,4,5,6,7,8,9]
- console.log(number);
-number.reverse();
-console.log(number);
+const max = getMax(heights);
+console.log('Max value is', max);

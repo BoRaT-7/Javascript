@@ -53,5 +53,21 @@ console.log(math.max);
 
 const min = math.min (45,12,34,78,92,11,3);
 console.log(min);
-const max = math.max('44','41','23','45');
+//const max = math.max('44','41','23','45');
 console.log(max);
+
+
+
+
+
+
+
+
+
+const heights = [ 55, 78,12,40,99,100]
+
+function getMax(fullnumbers){
+    console.log(fullnumbers);
+}
+  const max = getMax (fullnumbers);
+console.log('max value is ', max);
