@@ -71,3 +71,26 @@ function getMax(fullnumbers){
 }
   const max = getMax (fullnumbers);
 console.log('max value is ', max);
+
+
+
+
+
+
+
+
+
+
+ function woodquentity (chairquantity, tablequantity, bedquantity){
+  const perchairwood = 3;
+  const pertablewood = 10;
+  const perbedwood = 50;
+
+  const chairtotalwood = chairquantity * perchairwood;
+  const tabiltotalwood = tablequantity * pertablewood;
+  const bertotalwood = bedquantity * perbedwood;
+   const totalwood = chairtotalwood + tabiltotalwood + bertotalwood ;
+   return totalwood;
+ }
+
+ 
